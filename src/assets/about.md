@@ -15,4 +15,4 @@ I also spent much of my leisure time reading and writing, having published a sho
 I have taken these skillsets as well as my thirst for more knowledge and started my own consulting company, Drizzly Consulting LLC. With this small business, I challenge myself with fast turnaround times, having completed a [complex portfolio site](https://corinne-originals.vercel.app/) with a large set of high definition images for a client within two weeks. This project, coded in Next.JS with Typescript, Tailwind, and deployed on Vercel, involved using technologies I was unfamiliar with, as well as being completely designed by myself, yet I accepted the challenge and have received high praise from my client.  
 <br />
 <br />
-It is these skills and my mindset that I believe, makes me an invaluable asset to a team, and I am proud of the work I have done, and look forward to all that I am still to do.
+It is these skills and my mindset that I believe, makes me an invaluable asset to a team. I am proud of the work I have done, and look forward to all that I am still to do.
