@@ -4,7 +4,7 @@
 
 :root {
   --main-z-value: 5;
-  --background-z-value: 1;
+  --background-z-value: -1;
 
   --color-denim-shadow: #001418;
   --color-denim: #7f7c71;
@@ -62,8 +62,11 @@ main {
   width: 100vw;
   position: relative;
   display: flex;
+  flex-direction: column;
   z-index: var(--main-z-value);
   padding: 0 5vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .blurb {
@@ -72,6 +75,7 @@ main {
   color: white;
   position: absolute;
   top: 8rem;
+  left: 5vw;
 
   h2 {
     font-size: 1.7rem;
@@ -89,12 +93,16 @@ main {
 img.main-image {
   width: 100vw;
   height: auto;
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
+  /* transform: translateX(-50%); */
+  /* position: absolute; */
   z-index: var(--background-z-value);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   /* border-radius: 6px; */
+}
+
+.fade-in {
+  visibility: visible !important;
+  animation: fadeIn 1.4s ease-in-out;
 }
 
 @keyframes blinking {
@@ -108,5 +116,15 @@ img.main-image {
 
   100% {
     opacity: 0%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
