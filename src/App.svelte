@@ -161,7 +161,6 @@
 
   #image-blurb-wrapper .blurb :global(p) {
     font-size: 1rem;
-    word-break: break-all;
   }
 
     #image-skeleton {
